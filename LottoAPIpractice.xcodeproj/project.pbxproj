@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0835E7D2A4E79E200EB74A4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0835E7C2A4E79E200EB74A4 /* Theme.swift */; };
+		D0835E7F2A4EC88800EB74A4 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0835E7E2A4EC88800EB74A4 /* ColorPalette.swift */; };
+		D0835E812A4ECA5D00EB74A4 /* ThemeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0835E802A4ECA5D00EB74A4 /* ThemeProvider.swift */; };
+		D0835E832A4ECE1B00EB74A4 /* Themeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0835E822A4ECE1B00EB74A4 /* Themeable.swift */; };
+		D0B171372962B70C002AD35D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B171362962B70C002AD35D /* AppDelegate.swift */; };
+		D0B171392962B70C002AD35D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B171382962B70C002AD35D /* SceneDelegate.swift */; };
+		D0B1713B2962B70C002AD35D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1713A2962B70C002AD35D /* ViewController.swift */; };
+		D0B1713E2962B70C002AD35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B1713C2962B70C002AD35D /* Main.storyboard */; };
+		D0B171402962B70E002AD35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B1713F2962B70E002AD35D /* Assets.xcassets */; };
+		D0B171432962B70E002AD35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B171412962B70E002AD35D /* LaunchScreen.storyboard */; };
+		D0B1714D2962D9AE002AD35D /* LottoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1714C2962D9AE002AD35D /* LottoNumbers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0835E7C2A4E79E200EB74A4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D0835E7E2A4EC88800EB74A4 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		D0835E802A4ECA5D00EB74A4 /* ThemeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProvider.swift; sourceTree = "<group>"; };
+		D0835E822A4ECE1B00EB74A4 /* Themeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themeable.swift; sourceTree = "<group>"; };
+		D0B171332962B70C002AD35D /* LottoAPIpractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoAPIpractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B171362962B70C002AD35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0B171382962B70C002AD35D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0B1713A2962B70C002AD35D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0B1713D2962B70C002AD35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0B1713F2962B70E002AD35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B171422962B70E002AD35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B171442962B70E002AD35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B1714C2962D9AE002AD35D /* LottoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoNumbers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B171302962B70C002AD35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B1712A2962B70C002AD35D = {
+			isa = PBXGroup;
+			children = (
+				D0B171352962B70C002AD35D /* LottoAPIpractice */,
+				D0B171342962B70C002AD35D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B171342962B70C002AD35D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B171332962B70C002AD35D /* LottoAPIpractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B171352962B70C002AD35D /* LottoAPIpractice */ = {
+			isa = PBXGroup;
+			children = (
+				D0B171362962B70C002AD35D /* AppDelegate.swift */,
+				D0B171382962B70C002AD35D /* SceneDelegate.swift */,
+				D0B1713A2962B70C002AD35D /* ViewController.swift */,
+				D0B1714C2962D9AE002AD35D /* LottoNumbers.swift */,
+				D0835E7C2A4E79E200EB74A4 /* Theme.swift */,
+				D0835E802A4ECA5D00EB74A4 /* ThemeProvider.swift */,
+				D0835E822A4ECE1B00EB74A4 /* Themeable.swift */,
+				D0835E7E2A4EC88800EB74A4 /* ColorPalette.swift */,
+				D0B1713C2962B70C002AD35D /* Main.storyboard */,
+				D0B1713F2962B70E002AD35D /* Assets.xcassets */,
+				D0B171412962B70E002AD35D /* LaunchScreen.storyboard */,
+				D0B171442962B70E002AD35D /* Info.plist */,
+			);
+			path = LottoAPIpractice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B171322962B70C002AD35D /* LottoAPIpractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B171472962B70E002AD35D /* Build configuration list for PBXNativeTarget "LottoAPIpractice" */;
+			buildPhases = (
+				D0B1712F2962B70C002AD35D /* Sources */,
+				D0B171302962B70C002AD35D /* Frameworks */,
+				D0B171312962B70C002AD35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottoAPIpractice;
+			productName = LottoAPIpractice;
+			productReference = D0B171332962B70C002AD35D /* LottoAPIpractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B1712B2962B70C002AD35D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D0B171322962B70C002AD35D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D0B1712E2962B70C002AD35D /* Build configuration list for PBXProject "LottoAPIpractice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B1712A2962B70C002AD35D;
+			productRefGroup = D0B171342962B70C002AD35D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B171322962B70C002AD35D /* LottoAPIpractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B171312962B70C002AD35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B171432962B70E002AD35D /* LaunchScreen.storyboard in Resources */,
+				D0B171402962B70E002AD35D /* Assets.xcassets in Resources */,
+				D0B1713E2962B70C002AD35D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B1712F2962B70C002AD35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0835E812A4ECA5D00EB74A4 /* ThemeProvider.swift in Sources */,
+				D0835E832A4ECE1B00EB74A4 /* Themeable.swift in Sources */,
+				D0B1713B2962B70C002AD35D /* ViewController.swift in Sources */,
+				D0835E7D2A4E79E200EB74A4 /* Theme.swift in Sources */,
+				D0B171372962B70C002AD35D /* AppDelegate.swift in Sources */,
+				D0B171392962B70C002AD35D /* SceneDelegate.swift in Sources */,
+				D0B1714D2962D9AE002AD35D /* LottoNumbers.swift in Sources */,
+				D0835E7F2A4EC88800EB74A4 /* ColorPalette.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0B1713C2962B70C002AD35D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B1713D2962B70C002AD35D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B171412962B70E002AD35D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B171422962B70E002AD35D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B171452962B70E002AD35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0B171462962B70E002AD35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B171482962B70E002AD35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66BU7QGW7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LottoAPIpractice/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stu.inu.201802766.LottoAPIpractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B171492962B70E002AD35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66BU7QGW7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LottoAPIpractice/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stu.inu.201802766.LottoAPIpractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B1712E2962B70C002AD35D /* Build configuration list for PBXProject "LottoAPIpractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B171452962B70E002AD35D /* Debug */,
+				D0B171462962B70E002AD35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B171472962B70E002AD35D /* Build configuration list for PBXNativeTarget "LottoAPIpractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B171482962B70E002AD35D /* Debug */,
+				D0B171492962B70E002AD35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B1712B2962B70C002AD35D /* Project object */;
+}
